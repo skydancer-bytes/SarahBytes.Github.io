@@ -682,16 +682,12 @@ $size-header-pad: 4em;
 			}
 		}
 
-		&.avatar {
-			border-radius: 100%;
-
-			&:before {
-				display: none;
-			}
-
-			img {
-				border-radius: 100%;
-				width: 100%;
+		&.avatar 
+		
+		&.image.avatar img.large-avatar {
+			    width: 150px;
+			    height: 150px;
+			    border-radius: 50%;
 			}
 		}
 	}
